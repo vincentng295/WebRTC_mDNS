@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "WebRTC Hide Local IPs with mDNS",
+  "version": "1.0.0",
+  "description": "Protects your local IP address leakage over WebRTC by forcing mDNS hostname anonymization.",
+  "author": "HuskyDG",
+  "permissions": [
+    "privacy",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
